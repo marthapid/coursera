@@ -1,0 +1,53 @@
+﻿Build started 4/11/2014 12:11:46 PM.
+     1>Project "C:\Users\mpidcock\Documents\GitHub\Lab2Project\Lab2Project\Lab2Project.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt bintree.cpp
+         bintree.cpp
+       Link:
+         C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\mpidcock\Documents\GitHub\Lab2Project\Debug\Lab2Project.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\mpidcock\Documents\GitHub\Lab2Project\Debug\Lab2Project.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\mpidcock\Documents\GitHub\Lab2Project\Debug\Lab2Project.lib" /MACHINE:X86 Debug\bintree.obj
+         Debug\lab2.obj
+         Debug\nodedata.obj
+     1>lab2.obj : error LNK2005: "public: __thiscall NodeData::NodeData(class NodeData const &)" (??0NodeData@@QAE@ABV0@@Z) already defined in bintree.obj
+     1>lab2.obj : error LNK2005: "public: __thiscall NodeData::NodeData(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (??0NodeData@@QAE@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z) already defined in bintree.obj
+     1>lab2.obj : error LNK2005: "public: __thiscall NodeData::NodeData(void)" (??0NodeData@@QAE@XZ) already defined in bintree.obj
+     1>lab2.obj : error LNK2005: "public: __thiscall NodeData::~NodeData(void)" (??1NodeData@@QAE@XZ) already defined in bintree.obj
+     1>lab2.obj : error LNK2005: "public: class NodeData & __thiscall NodeData::operator=(class NodeData const &)" (??4NodeData@@QAEAAV0@ABV0@@Z) already defined in bintree.obj
+     1>lab2.obj : error LNK2005: "class std::basic_ostream<char,struct std::char_traits<char> > & __cdecl operator<<(class std::basic_ostream<char,struct std::char_traits<char> > &,class NodeData const &)" (??6@YAAAV?$basic_ostream@DU?$char_traits@D@std@@@std@@AAV01@ABVNodeData@@@Z) already defined in bintree.obj
+     1>lab2.obj : error LNK2005: "public: bool __thiscall NodeData::operator==(class NodeData const &)const " (??8NodeData@@QBE_NABV0@@Z) already defined in bintree.obj
+     1>lab2.obj : error LNK2005: "public: bool __thiscall NodeData::operator!=(class NodeData const &)const " (??9NodeData@@QBE_NABV0@@Z) already defined in bintree.obj
+     1>lab2.obj : error LNK2005: "public: bool __thiscall NodeData::operator<(class NodeData const &)const " (??MNodeData@@QBE_NABV0@@Z) already defined in bintree.obj
+     1>lab2.obj : error LNK2005: "public: bool __thiscall NodeData::operator<=(class NodeData const &)const " (??NNodeData@@QBE_NABV0@@Z) already defined in bintree.obj
+     1>lab2.obj : error LNK2005: "public: bool __thiscall NodeData::operator>(class NodeData const &)const " (??ONodeData@@QBE_NABV0@@Z) already defined in bintree.obj
+     1>lab2.obj : error LNK2005: "public: bool __thiscall NodeData::operator>=(class NodeData const &)const " (??PNodeData@@QBE_NABV0@@Z) already defined in bintree.obj
+     1>lab2.obj : error LNK2005: "public: bool __thiscall NodeData::setData(class std::basic_istream<char,struct std::char_traits<char> > &)" (?setData@NodeData@@QAE_NAAV?$basic_istream@DU?$char_traits@D@std@@@std@@@Z) already defined in bintree.obj
+     1>nodedata.obj : error LNK2005: "public: __thiscall NodeData::NodeData(class NodeData const &)" (??0NodeData@@QAE@ABV0@@Z) already defined in bintree.obj
+     1>nodedata.obj : error LNK2005: "public: __thiscall NodeData::NodeData(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (??0NodeData@@QAE@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z) already defined in bintree.obj
+     1>nodedata.obj : error LNK2005: "public: __thiscall NodeData::NodeData(void)" (??0NodeData@@QAE@XZ) already defined in bintree.obj
+     1>nodedata.obj : error LNK2005: "public: __thiscall NodeData::~NodeData(void)" (??1NodeData@@QAE@XZ) already defined in bintree.obj
+     1>nodedata.obj : error LNK2005: "public: class NodeData & __thiscall NodeData::operator=(class NodeData const &)" (??4NodeData@@QAEAAV0@ABV0@@Z) already defined in bintree.obj
+     1>nodedata.obj : error LNK2005: "class std::basic_ostream<char,struct std::char_traits<char> > & __cdecl operator<<(class std::basic_ostream<char,struct std::char_traits<char> > &,class NodeData const &)" (??6@YAAAV?$basic_ostream@DU?$char_traits@D@std@@@std@@AAV01@ABVNodeData@@@Z) already defined in bintree.obj
+     1>nodedata.obj : error LNK2005: "public: bool __thiscall NodeData::operator==(class NodeData const &)const " (??8NodeData@@QBE_NABV0@@Z) already defined in bintree.obj
+     1>nodedata.obj : error LNK2005: "public: bool __thiscall NodeData::operator!=(class NodeData const &)const " (??9NodeData@@QBE_NABV0@@Z) already defined in bintree.obj
+     1>nodedata.obj : error LNK2005: "public: bool __thiscall NodeData::operator<(class NodeData const &)const " (??MNodeData@@QBE_NABV0@@Z) already defined in bintree.obj
+     1>nodedata.obj : error LNK2005: "public: bool __thiscall NodeData::operator<=(class NodeData const &)const " (??NNodeData@@QBE_NABV0@@Z) already defined in bintree.obj
+     1>nodedata.obj : error LNK2005: "public: bool __thiscall NodeData::operator>(class NodeData const &)const " (??ONodeData@@QBE_NABV0@@Z) already defined in bintree.obj
+     1>nodedata.obj : error LNK2005: "public: bool __thiscall NodeData::operator>=(class NodeData const &)const " (??PNodeData@@QBE_NABV0@@Z) already defined in bintree.obj
+     1>nodedata.obj : error LNK2005: "public: bool __thiscall NodeData::setData(class std::basic_istream<char,struct std::char_traits<char> > &)" (?setData@NodeData@@QAE_NAAV?$basic_istream@DU?$char_traits@D@std@@@std@@@Z) already defined in bintree.obj
+     1>lab2.obj : error LNK2019: unresolved external symbol "public: __thiscall BinTree::BinTree(void)" (??0BinTree@@QAE@XZ) referenced in function _main
+     1>lab2.obj : error LNK2019: unresolved external symbol "public: __thiscall BinTree::BinTree(class BinTree const &)" (??0BinTree@@QAE@ABV0@@Z) referenced in function _main
+     1>lab2.obj : error LNK2019: unresolved external symbol "public: __thiscall BinTree::~BinTree(void)" (??1BinTree@@QAE@XZ) referenced in function _main
+     1>lab2.obj : error LNK2019: unresolved external symbol "public: void __thiscall BinTree::makeEmpty(void)" (?makeEmpty@BinTree@@QAEXXZ) referenced in function _main
+     1>lab2.obj : error LNK2019: unresolved external symbol "public: class BinTree & __thiscall BinTree::operator=(class BinTree const &)" (??4BinTree@@QAEAAV0@ABV0@@Z) referenced in function _main
+     1>lab2.obj : error LNK2019: unresolved external symbol "public: bool __thiscall BinTree::operator==(class BinTree const &)const " (??8BinTree@@QBE_NABV0@@Z) referenced in function _main
+     1>lab2.obj : error LNK2019: unresolved external symbol "public: bool __thiscall BinTree::operator!=(class BinTree const &)const " (??9BinTree@@QBE_NABV0@@Z) referenced in function _main
+     1>lab2.obj : error LNK2019: unresolved external symbol "public: bool __thiscall BinTree::insert(class NodeData *)" (?insert@BinTree@@QAE_NPAVNodeData@@@Z) referenced in function "void __cdecl buildTree(class BinTree &,class std::basic_ifstream<char,struct std::char_traits<char> > &)" (?buildTree@@YAXAAVBinTree@@AAV?$basic_ifstream@DU?$char_traits@D@std@@@std@@@Z)
+     1>lab2.obj : error LNK2019: unresolved external symbol "public: bool __thiscall BinTree::retrieve(class NodeData const &,class NodeData * &)const " (?retrieve@BinTree@@QBE_NABVNodeData@@AAPAV2@@Z) referenced in function _main
+     1>lab2.obj : error LNK2019: unresolved external symbol "public: int __thiscall BinTree::getDepth(class NodeData)const " (?getDepth@BinTree@@QBEHVNodeData@@@Z) referenced in function _main
+     1>lab2.obj : error LNK2019: unresolved external symbol "public: void __thiscall BinTree::arrayToBSTree(class NodeData * * const)" (?arrayToBSTree@BinTree@@QAEXQAPAVNodeData@@@Z) referenced in function _main
+     1>lab2.obj : error LNK2019: unresolved external symbol "public: void __thiscall BinTree::bstreeToArray(class NodeData * * const)" (?bstreeToArray@BinTree@@QAEXQAPAVNodeData@@@Z) referenced in function _main
+     1>C:\Users\mpidcock\Documents\GitHub\Lab2Project\Debug\Lab2Project.exe : fatal error LNK1120: 12 unresolved externals
+     1>Done Building Project "C:\Users\mpidcock\Documents\GitHub\Lab2Project\Lab2Project\Lab2Project.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:01.48
